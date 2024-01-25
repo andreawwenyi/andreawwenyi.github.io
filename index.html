@@ -1,423 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <!-- Head -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<html>
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
-    
+  <title>andreawwenyi</title>
+  <meta charset="utf-8"/>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head> 
 
-    <!-- Standard metadata -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Andrea Wen-Yi Wang</title>
-    <meta name="author" content="Andrea Wen-Yi Wang">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+  <body>
+  <div id="title">Andrea Wen-Yi Wang</div> <img src="andrea_round.png">
+  <div style="font-size:0.8em"> andreawwenyi [at] infosci.cornell.edu </div>
+  <div>
+    <span class='link'><a href='./aw_cv.pdf'>CV</a></span>
+    <span class='link pad-left'><a href=https://scholar.google.com/citations?user=TE24FMUAAAAJ&hl=en&view_op=list_works&authuser=1&sortby=pubdate>Google Scholar</a></span>
+    <span class='link pad-left'><a href=https://github.com/andreawwenyi>GitHub</a></span>
+    <span class='link pad-left'><a href=https://twitter.com/andreawwenyi>Twitter</a></span>
 
+  </div>
+  <div class="section">
+    <div>I'm a second-year PhD student at Cornell Information Science, advised by <a href=https://koenecke.infosci.cornell.edu>Allison Koenecke</a> and <a href=https://mimno.infosci.cornell.edu>David Mimno</a>. 
+    <div>I am interested in the intersection of Natural Language Processing, Data Science, and Computational Social Science.</div>
 
-    <!-- Bootstrap & MDB -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+    <div> I study the characteristics of LLMs through two lenses.</div>
+    <div> First, through the lens of models, I study the interpretability of multilingual LLMs. </div>
+    <div> Second, through the lens of social scientists, I study how language models could meet the needs of social scientists with textual data. So far, I have worked on projects involving criminal justice, gender studies, and misinformation.</div>
 
-    <!-- Bootstrap Table -->
-    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
+    <br/>
 
-    <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
-
-    <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
-
-    
-
-    <!-- Styles -->
-    
-    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
-    
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://andreawwenyi.github.io/">
-
-    <!-- Dark Mode -->
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
-
-    <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/dark_mode.js"></script>
-    
-
-  </head>
-
-  <!-- Body -->
-  <body class="fixed-top-nav ">
-
-    <!-- Header -->
-    <header>
-
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
-
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
-              </li>
-              
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
-
-
-    <!-- Content -->
-    <div class="container mt-5">
+    <div> Prior to joining Cornell, I was a data scientist at New York University's Public Safety Lab. I worked on the <a href=https://jaildatainitiative.org>Jail Data Initiative</a> with <a href="https://www.linkedin.com/in/orionjtaylor/">Orion Taylor</a> and <a href="https://wp.nyu.edu/annaharvey/">Anna Harvey</a>. 
+      I was also a contributor in g0v ("gov-zero"), a grassroot civic-tech community in Taiwan, where I worked on the 0archive project. 
+    </div>
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           <span class="font-weight-bold">Andrea</span> Wen-Yi Wang
-          </h1>
-          <p class="desc"></p>
-        </header>
-
-        <article>
-          <div class="profile float-right">
-
-              <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            <div class="address">
-              <p>andreawwenyi [at] infosci.cornell.edu</p> <p> <i class="fa fa-github"></i> <a href="https://github.com/andreawwenyi/" rel="external nofollow noopener" target="_blank">  andreawwenyi </a> </p> <p> <i class="fa fa-twitter"></i> <a href="https://twitter.com/andreawwenyi" rel="external nofollow noopener" target="_blank">  andreawwenyi </a></p>
-
-            </div>
-          </div>
-
-          <div class="clearfix">
-            <p>I am a PhD student in <a href="https://infosci.cornell.edu/" target="_blank" rel="external nofollow noopener">Information Science at Cornell University</a>, where I am advised by <a href="https://koenecke.infosci.cornell.edu/" target="_blank" rel="external nofollow noopener">Allison Koenecke</a> and <a href="http://www.mimno.org/" target="_blank" rel="external nofollow noopener">David Mimno</a>. My research interests lie broadly at the intersection of Natural Language Processing, Data Science, and Computational Social Science.</p>
-
-<p>My works often involve understanding the characteristics of computational text analysis tools, such as topic modeling and multilingual large language models. Specifically, I aim to study how these tools could meet the needs of humanists/social scientists with text data. So far, I have worked on projects involving criminal justice, gender studies, and misinformation.</p>
-
-<p>Prior to joining Cornell, I worked as a data scientist at New York University’s Public Safety Lab, with <a href="https://wp.nyu.edu/annaharvey/" rel="external nofollow noopener" target="_blank">Anna Harvey</a> and Orion Taylor, on <a href="https://publicsafetylab.org/jail-data-initiative" rel="external nofollow noopener" target="_blank">Jail Data Initiative</a>. I participated in <a href="https://g0v.tw/intl/en/" rel="external nofollow noopener" target="_blank">g0v</a>, a grassroot civic-tech community in Taiwan, where I was one of the main contributors of <a href="https://0archive.tw/" rel="external nofollow noopener" target="_blank">0archive</a> project.</p>
-
-<p>I held a Bachelor in Finance from National Taiwan University and a M.S. from <a href="https://cds.nyu.edu/" rel="external nofollow noopener" target="_blank">NYU’s Center for Data Science</a>, where I learned to appreciate the beauty of math and algorithms.</p>
-
-<p>If you’re looking for advice on applying to PhD programs, feel free to shoot me an email! I’m happy to chat and offer my experiences about applications and PhD experiences.</p>
-
-          </div>
-
-          <!-- News -->
-          <h2><a href="/news/" style="color: inherit;">news</a></h2>          <div class="news">
-            <div class="table-responsive" style="max-height: 60vw">
-              <table class="table table-sm table-borderless">
-              
-                <tr>
-                  <th scope="row">Aug 21, 2023</th>
-                  <td>
-                    I will be TA for “INFO 2950 Introduction to Data Science” (Prof. Koenecke) for the FA2023 semester!
-
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">May 30, 2023</th>
-                  <td>
-                    I will be serving as a text analysis consultant for the <a href="https://digitalscholarship.library.cornell.edu/summer-dh" rel="external nofollow noopener" target="_blank">Cornell University Summer Graduate Fellowship in Digital Humanities</a> this summer! I will be working with three fellows studying Sanskrit Philosophical texts, English economics texts, and Spanish poetry!
-
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Apr 14, 2023</th>
-                  <td>
-                    I have been accepted for a poster presentation at <a href="https://www.ic2s2.org/" rel="external nofollow noopener" target="_blank">9th International Conference on Computational Social Science (IC2S2 2023)</a>! The extended abstract explored ways to quantify and visualize seasonal linguistic patterns in a wide range of reddit communities <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20">
-
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Apr 15, 2022</th>
-                  <td>
-                    I will be joining Cornell InfoSci as a PhD student starting Aug 2022!
-
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-
-          <!-- Latest posts -->
-          
-
-          <!-- Selected papers -->
-          <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
-          <div class="publications">
-            <ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 preview">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/covid-rumor-pipeline-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/covid-rumor-pipeline-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/covid-rumor-pipeline-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/covid-rumor-pipeline.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="covid-rumor-pipeline.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
+      <!-- <div> </div>I held a Bachelor in Finance from National Taiwan University and a M.S. from NYU’s Center for Data Science, where I learned to appreciate the beauty of math and algorithms. -->
+    <br/>
+    <div> For potential PhD applicant: I’m happy to chat and offer my experiences about applications and PhD experiences. Feel free to email me.</div>
 </div>
-
-        <!-- Entry bib key -->
-        <div id="wang2021evolution" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">The Evolution of Rumors on a Closed Social Networking Platform During COVID-19: Algorithm Development and Content Study</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Andrea W Wang, Jo-Yu Lan, Ming-Hung Wang, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Chihhao Yu' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>JMIR Medical Informatics</em>, 2021
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">wang2021evolution</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{The Evolution of Rumors on a Closed Social Networking Platform During COVID-19: Algorithm Development and Content Study}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Andrea W and Lan, Jo-Yu and Wang, Ming-Hung and Yu, Chihhao}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{JMIR Medical Informatics}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{9}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{e30467}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{JMIR Publications Toronto, Canada}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
+    
+  </div>
+  <div class="section-title">Publications</div>
+  <div class="section">
+    <div>
+      <div class='bold'>Hyperpolyglot LLMs: Cross-Lingual Interpretability in Token Embeddings</div>
+      <div><b>Andrea W Wen-Yi</b>, David Mimno</div>
+      <div>EMNLP 2023</div>
+      <div>
+        <a href='https://aclanthology.org/2023.emnlp-main.71.pdf'>Paper</a>&nbsp;
+        <a href='https://github.com/andreawwenyi/hyperpolyglot'>Code</a>&nbsp;
+        <a href=papers/hyperpolyglot_poster.pdf>Poster</a>
       </div>
-</li></ol>
-          </div>
+    </div>
+
+    <br/>
+
+    <div>
+      <div class='bold'>The Evolution of Rumors on a Closed Social Networking Platform During COVID-19: Algorithm Development and Content Study</div>
+      <div><b>Andrea W Wang</b>, Jo-Yu Lan, <a href='https://sites.google.com/view/mhwang/'>Ming-Hung Wang</a>, <a href="https://chihao.tw/"> Chihhao Yu </a></div>
+      <div>JMIR Med Inform 2021</div>
+      <div> doi:10.2196/30467 </div>
+      <div>
+        <a href=https://medinform.jmir.org/2021/11/e30467>Paper</a>
+      </div>
+    </div>
 
 
-          <!-- Social -->
-        </article>
-
-</div>
-
+    </div>
+  </div>
+  <div class="section-title"> Working Papers</div>
+  <div class="section">
+    <div>
+      <div class='bold'>"Courtroom Tears": Identifying Gendered Discourse in US Capital Trial Transcripts Using Large Language Models.</div>
+      <div><b>Andrea W Wen-Yi</b>, Kathryn Adamson, Nathalie Greenfield, Rachel Goldberg, Sandra Babcock, David Mimno, Allison Koenecke </div>
+      <div>Under Review</div>
       
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        © Copyright 2023 Andrea Wen-Yi Wang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: December 08, 2023.
-      </div>
-    </footer>
-
-    <!-- JavaScripts -->
-    <!-- jQuery -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <!-- Bootsrap & MDB scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-
-    <!-- Masonry & imagesLoaded -->
-  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-    
-  <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js"></script>
-
-  <!-- Bootstrap Table -->
-  <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
-
-  <!-- Load Common JS -->
-  <script src="/assets/js/no_defer.js"></script>
-  <script defer src="/assets/js/common.js"></script>
-  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
-
-    
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
-
-    <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      }
-    };
-  </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-    
-    
-
-<!-- Scrolling Progress Bar -->
-<script type="text/javascript">
-  /*
-   * This JavaScript code has been adapted from the article 
-   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
-   * published on the website https://css-tricks.com on the 7th of May, 2014.
-   * Couple of changes were made to the original code to make it compatible 
-   * with the `al-foio` theme.
-   */
-  const progressBar = $("#progress");
-  /*
-   * We set up the bar after all elements are done loading.
-   * In some cases, if the images in the page are larger than the intended
-   * size they'll have on the page, they'll be resized via CSS to accomodate
-   * the desired size. This mistake, however, breaks the computations as the
-   * scroll size is computed as soon as the elements finish loading.
-   * To account for this, a minimal delay was introduced before computing the
-   * values.
-   */
-  window.onload = function () {
-    setTimeout(progressBarSetup, 50);
-  };
-  /*
-   * We set up the bar according to the browser.
-   * If the browser supports the progress element we use that.
-   * Otherwise, we resize the bar thru CSS styling
-   */
-  function progressBarSetup() {
-    if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
-      $(document).on("scroll", function() {
-        progressBar.attr({ value: getCurrentScrollPosition() });
-      });
-      $(window).on("resize", initializeProgressElement);
-    } else {
-      resizeProgressBar();
-      $(document).on("scroll", resizeProgressBar);
-      $(window).on("resize", resizeProgressBar);
-    }
-  }
-  /*
-   * The vertical scroll position is the same as the number of pixels that
-   * are hidden from view above the scrollable area. Thus, a value > 0 is
-   * how much the user has scrolled from the top
-   */
-  function getCurrentScrollPosition() {
-    return $(window).scrollTop();
-  }
-
-  function initializeProgressElement() {
-    let navbarHeight = $("#navbar").outerHeight(true);
-    $("body").css({ "padding-top": navbarHeight });
-    $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
-    progressBar.attr({
-      max: getDistanceToScroll(),
-      value: getCurrentScrollPosition(),
-    });
-  }
-  /*
-   * The offset between the html document height and the browser viewport
-   * height will be greater than zero if vertical scroll is possible.
-   * This is the distance the user can scroll
-   */
-  function getDistanceToScroll() {
-    return $(document).height() - $(window).height();
-  }
-
-  function resizeProgressBar() {
-    progressBar.css({ width: getWidthPercentage() + "%" });
-  }
-  // The scroll ratio equals the percentage to resize the bar
-  function getWidthPercentage() {
-    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-  }
-</script>
+  </div>
 
   </body>
+  <div style="font-size:0.8em"> This website is developed by <a href=https://github.com/gyauney/gyauney.github.io target="_blank"> gyauney</a>. Thanks Greg!</div>
 </html>

@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://andreawwenyi.github.io/sitemap.xml
