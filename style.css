@@ -41,6 +41,10 @@ p {
 	padding: 0.2em 0em;
 }
 
+.highlight {
+	color: #009933
+}
+
 a:link {
   color: #e06666;
   text-decoration: none;
